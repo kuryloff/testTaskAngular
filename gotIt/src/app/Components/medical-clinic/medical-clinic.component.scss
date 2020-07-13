@@ -1,0 +1,81 @@
+@import "src/styles.scss";
+
+.wrapper {
+  position: absolute;;
+  width: 1440px;
+  height: 565px;
+  bottom: 2875px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+  margin: 20px 56px 0 0;
+  width: 462px;
+  height: 484px;
+}
+
+article {
+  width: 589px;
+  height: 565px;
+}
+
+h1 {
+  @extend .fontHelvBold;
+  font-size: 45px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #404247;
+  width: 514px;
+  margin-bottom: 55px;
+}
+
+span {
+  @extend .fontHelvRoman;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #858A93;
+}
+
+.topCorner {
+  position: absolute;
+  width: 231px;
+  height: 187px;
+  right: 0;
+  top: 0;
+  background: #F7F7F7;
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+}
+
+.bottomCorner {
+  position: absolute;
+  width: 257px;
+  height: 208px;
+  left: 0;
+  bottom: 0;
+  background: rgba(96, 139, 178, 0.17);
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+}
+
+img {
+  position: relative;
+  z-index: 2;
+  margin-left: -152px;
+}
+
+.cropped {
+  position: relative;
+  margin: 26px 0 0 24px;
+  width: 408px;
+  height: 439px;
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 3;
+}

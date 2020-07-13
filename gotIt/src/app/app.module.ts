@@ -11,6 +11,7 @@ import { BackgroundComponent } from './Components/background/background.componen
 import { PharmacyComponent } from './Components/pharmacy/pharmacy.component';
 import { HoursComponent } from './Components/hours/hours.component';
 import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clinic.component';
+import { MedicalClinicComponent } from './Components/medical-clinic/medical-clinic.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clini
     BackgroundComponent,
     PharmacyComponent,
     HoursComponent,
-    WalkInClinicComponent
+    WalkInClinicComponent,
+    MedicalClinicComponent
   ],
   imports: [
     BrowserModule,
