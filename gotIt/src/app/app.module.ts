@@ -8,6 +8,7 @@ import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { MainComponent } from './Components/main/main.component';
 import { BackgroundComponent } from './Components/background/background.component';
+import { PharmacyComponent } from './Components/pharmacy/pharmacy.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BackgroundComponent } from './Components/background/background.componen
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    PharmacyComponent
   ],
   imports: [
     BrowserModule,

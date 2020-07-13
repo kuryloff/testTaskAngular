@@ -1,0 +1,43 @@
+@import "src/styles.scss";
+
+.wrapper{
+  width: 1440px;
+  height: 532px;
+  background: #F5F5F5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  @extend .fontHelvBold;
+  font-size: 45px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #404247;
+  margin: 81px 0px 30px 0px;
+}
+
+article{
+  width: 570px;
+  margin-left: 185px;
+}
+
+article > span{
+  @extend .fontHelvRoman;
+  display: inline-block;
+  width: 570px;
+  margin-bottom: 10px;
+}
+
+article > p{
+  @extend .fontHelvBold;
+  font-size: 18px;
+  line-height: 150%;
+  width: 550px;
+  color: #606164;
+  margin: 16px 0 0 0;
+}
