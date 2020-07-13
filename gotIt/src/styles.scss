@@ -1,4 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
 
-/* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: RobotoLight;
+  src: url("assets/fonts/roboto-light.ttf ");
+}
+
+@font-face {
+  font-family: HelveticaNeueCyrBold;
+  src: url("assets/fonts/helveticaneuecyr-bold.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueCyrThin;
+  src: url("assets/fonts/helveticaneuecyr-thin.ttf");
+}
+
+
+
+.fontRobotoLight{
+  font-family: RobotoLight, sans-serif;
+  font-style: normal;
+  }
+
+.fontHelvBold{
+  font-family: HelveticaNeueCyrBold, sans-serif;
+  font-style: normal;
+}
+
+.fontHelvThin{
+  font-family: HelveticaNeueCyrThin, sans-serif;
+  font-style: normal;
+}
