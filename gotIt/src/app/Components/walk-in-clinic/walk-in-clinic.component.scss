@@ -1,0 +1,127 @@
+@import "src/styles.scss";
+
+.wrapper {
+  width: 1440px;
+  height: 909px;
+  position: absolute;
+  left: 0;
+  bottom: 1826px;
+}
+
+svg {
+  position: absolute;
+  width: 859px;
+  height: 735px;
+  right: 76.66px;
+}
+
+path {
+  opacity: 0.33;
+  fill: #F6F6F6;
+}
+
+.infoBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 1440px;
+  height: 909px;
+  margin: 131px 0 0 191px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h1 {
+  @extend .fontHelvBold;
+  font-size: 45px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #404247;
+  width: 517px;
+  margin-bottom: 56px;
+}
+
+article > span {
+  @extend .fontHelvRoman;
+  font-size: 16px;
+  line-height: 150%;
+  color: #858A93;
+  width: 597px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.buttonsContainer {
+  width: 401px;
+  height: 494px;
+  display: flex;
+  justify-content: center;
+}
+
+.firstColumn,
+.secondColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 195px;
+  height: 494px;
+}
+
+.firstColumn > a,
+.secondColumn > a {
+  display: block;
+}
+
+.firstColumn {
+  margin: 0 12px 0 61px;
+}
+
+.firstColumn > a {
+  margin-bottom: 14px;
+}
+
+.secondColumn > a {
+  margin-bottom: 12px;
+}
+
+.buttonLink {
+  @extend .fontHelvBold;
+  width: 194.29px;
+  height: 157.01px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 30px rgba(81, 87, 104, 0.1);
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: center;
+  color: #404247;
+}
+
+.buttonLink:hover {
+  background: linear-gradient(128.9deg, #82AED4 0.04%, #49739C 95.98%);
+  box-shadow: 4px 4px 30px rgba(81, 87, 104, 0.1);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.selected {
+  background: linear-gradient(128.9deg, #82AED4 0.04%, #49739C 95.98%);
+  color: #FFFFFF;
+}
+
+.buttonLink div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin: 18px 0 24px 0;
+}
+
+.marginTop {
+  margin-top: 10px;
+}

@@ -10,6 +10,7 @@ import { MainComponent } from './Components/main/main.component';
 import { BackgroundComponent } from './Components/background/background.component';
 import { PharmacyComponent } from './Components/pharmacy/pharmacy.component';
 import { HoursComponent } from './Components/hours/hours.component';
+import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clinic.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HoursComponent } from './Components/hours/hours.component';
     MainComponent,
     BackgroundComponent,
     PharmacyComponent,
-    HoursComponent
+    HoursComponent,
+    WalkInClinicComponent
   ],
   imports: [
     BrowserModule,
