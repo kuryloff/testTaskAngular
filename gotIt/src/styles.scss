@@ -21,6 +21,25 @@
   src: url("assets/fonts/helveticaneuecyr-roman.ttf");
 }
 
+@font-face {
+  font-family: HelveticaNeueCyrBlack;
+  src: url("assets/fonts/helveticaneuecyr-black.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueCyrMedium;
+  src: url("assets/fonts/helveticaneuecyr-medium1.ttf");
+}
+
+.fontHelvMedium{
+  font-family: HelveticaNeueCyrMedium, sans-serif;
+  font-style: normal;
+}
+
+.fontHelvBlack{
+  font-family: HelveticaNeueCyrBlack, sans-serif;
+  font-style: normal;
+}
 
 .fontRobotoLight{
   font-family: RobotoLight, sans-serif;
