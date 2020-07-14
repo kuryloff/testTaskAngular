@@ -1,0 +1,103 @@
+@import "src/styles.scss";
+
+.wrapper {
+  position: absolute;
+  bottom: 673px;
+  width: 1056px;
+  height: 512px;
+  margin-left: 192px;
+  z-index: 2;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1056px;
+  height: 512px;
+}
+
+.nav-link {
+  width: 300px;
+  height: 64px;
+  padding: 0;
+}
+
+.menuContainer div > a {
+  @extend .fontHelvRoman;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: #777A81;
+  text-decoration: none;
+  border-radius: 0;
+  padding-left: 37px;
+  padding-top: 21px;
+  background: #F1F1F3;
+}
+
+#v-pills-tab .active {
+  background: linear-gradient(101.27deg, #83AFD5 0%, #527CA4 92.15%);
+}
+
+#v-pills-tabContent {
+  background-color: #FFFFFF;
+}
+
+.tab-content {
+  background: #FFFFFF;
+  box-shadow: 24px 14px 60px rgba(81, 87, 104, 0.1);
+  border-radius: 10px;
+  width: 756px;
+  height: 512px;
+}
+
+article {
+  width: 644px;
+  height: 417px;
+  margin: 44px 56px 38px 44px;
+}
+
+h1 {
+  @extend .fontHelvBold;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #404247;
+  font-size: 30px;
+  width: 489px;
+  margin-bottom: 37px;
+  text-transform: capitalize;
+}
+
+p{
+@extend .fontHelvRoman;
+  font-size: 16px;
+  line-height: 150%;
+  color: #858A93;
+}
+
+.button{
+  @extend .fontHelvMedium;
+  display: block;
+  width: 185px;
+  height: 50px;
+  box-shadow: 6px 6px 25px rgba(16, 45, 57, 0.05);
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #1F4D7F;
+  text-decoration: none;
+  border: 1px solid #1F4D7F;
+  margin-top: 44px;
+  padding-top: 12px;
+}
+
+.button:hover{
+  text-decoration: none;
+}
+
+img{
+  position: absolute;
+  top: 50px;
+  left: 910px;
+}

@@ -8,7 +8,7 @@ footer {
   top: 4413px;
 }
 
-.footerInfo{
+.footerInfo {
   height: 384px;
   background: #4D5157;
   display: flex;
@@ -21,8 +21,8 @@ footer {
   height: 50px;
 }
 
-p{
-@extend .fontRobotoLight;
+p {
+  @extend .fontRobotoLight;
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
@@ -31,21 +31,21 @@ p{
   padding-top: 20px;
 }
 
-.mainLink{
+.mainLink {
   display: inline-block;
   text-decoration: none;
-@extend .fontHelvBold;
+  @extend .fontHelvBold;
   font-size: 18px;
   line-height: 140%;
   color: #F5F5F5;
 }
 
-.mainLink:hover{
+.mainLink:hover {
   color: #00B0D8;
   text-decoration: none;
 }
 
-.topRow{
+.topRow {
   height: 92px;
   width: 1058px;
   display: flex;
@@ -54,19 +54,19 @@ p{
   margin-top: 27px;
 }
 
-.links{
+.links {
   width: 861px;
   height: 27px;
   display: flex;
   justify-content: space-between;
 }
 
-.logoImg{
+.logoImg {
   width: 75px;
   height: 92px;
 }
 
-.bottomRow{
+.bottomRow {
   width: 1059px;
   height: 166px;
   margin-top: 44px;
@@ -75,33 +75,34 @@ p{
   align-items: flex-start;
 }
 
-.linkWrapper{
+.linkWrapper {
   width: 862px;
   height: 166px;
   display: flex;
   justify-content: space-between;
 }
 
-.socialMedia{
+.socialMedia {
   width: 132px;
   height: 138px;
 }
 
-.services{
+.services {
   width: 321px;
   height: 166px;
 }
 
-.contactsContainer{
+.contactsContainer {
   width: 312px;
   height: 151px;
 }
-.contactsContainer img{
+
+.contactsContainer img {
   margin-right: 18px;
 }
 
 .contactsContainer span,
-.contactsContainer span >a {
+.contactsContainer span > a {
   @extend .fontHelvThin;
   font-size: 15px;
   line-height: 140%;
@@ -110,19 +111,20 @@ p{
   max-width: 247px;
 }
 
-.contacts{
+.contacts {
   margin-top: 19px;
 }
 
-.contacts > div{
+.contacts > div {
   margin-bottom: 10px;
 }
-.hoursContainer{
+
+.hoursContainer {
   width: 171px;
   height: 151px;
 }
 
-.buttonsBlock{
+.buttonsBlock {
   width: 91px;
   height: 93px;
   display: flex;
@@ -132,18 +134,18 @@ p{
   margin-top: 18px;
 }
 
-.buttonsBlock img{
+.buttonsBlock img {
   width: 39px;
   height: 39px;
 }
 
-.servicesContainer{
+.servicesContainer {
   width: inherit;
   display: flex;
   justify-content: space-between;
 }
 
-.servicesContainer a{
+.servicesContainer a {
   @extend .fontHelvThin;
   display: block;
   text-decoration: none;
@@ -155,33 +157,33 @@ p{
   margin-bottom: 4px;
 }
 
-.servicesContainer a:hover{
+.servicesContainer a:hover {
   color: #00B0D8;
   text-decoration: none;
 }
 
 
-.firstRow{
+.firstRow {
   margin-top: 18px;
   width: 139px;
 }
 
-.secondRow{
+.secondRow {
   margin-top: 18px;
   width: 170px;
 }
 
-.address{
+.address {
   margin-left: 32px;
 }
 
-.hoursBlock{
+.hoursBlock {
   margin-top: 21px;
   display: flex;
   justify-content: space-between;
 }
 
-.hoursBlock div > p{
+.hoursBlock div > p {
   margin: 0px 0px 10px 0px;
   padding: 0;
   @extend .fontHelvThin;
@@ -192,11 +194,11 @@ p{
 
 }
 
-.days > p{
+.days > p {
   text-align: left;
 }
 
-.hours > p{
+.hours > p {
   text-align: right;
 }
 

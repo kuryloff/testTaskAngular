@@ -14,6 +14,7 @@ import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clini
 import { MedicalClinicComponent } from './Components/medical-clinic/medical-clinic.component';
 import { TopArticleComponent } from './Components/top-article/top-article.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
+import { ServiceListDiscriptionComponent } from './Components/service-list-discription/service-list-discription.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
     WalkInClinicComponent,
     MedicalClinicComponent,
     TopArticleComponent,
-    NavbarComponent
+    NavbarComponent,
+    ServiceListDiscriptionComponent
   ],
   imports: [
     BrowserModule,
