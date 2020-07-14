@@ -13,6 +13,7 @@ import { HoursComponent } from './Components/hours/hours.component';
 import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clinic.component';
 import { MedicalClinicComponent } from './Components/medical-clinic/medical-clinic.component';
 import { TopArticleComponent } from './Components/top-article/top-article.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TopArticleComponent } from './Components/top-article/top-article.compon
     HoursComponent,
     WalkInClinicComponent,
     MedicalClinicComponent,
-    TopArticleComponent
+    TopArticleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

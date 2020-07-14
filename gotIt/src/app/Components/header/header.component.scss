@@ -1,0 +1,14 @@
+@import "src/styles.scss";
+
+.wrapper{
+  position: absolute;
+  width: 1440px;
+  height: 79px;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  margin-left: 221px;
+}
