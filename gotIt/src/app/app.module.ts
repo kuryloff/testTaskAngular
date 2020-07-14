@@ -12,6 +12,7 @@ import { PharmacyComponent } from './Components/pharmacy/pharmacy.component';
 import { HoursComponent } from './Components/hours/hours.component';
 import { WalkInClinicComponent } from './Components/walk-in-clinic/walk-in-clinic.component';
 import { MedicalClinicComponent } from './Components/medical-clinic/medical-clinic.component';
+import { TopArticleComponent } from './Components/top-article/top-article.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MedicalClinicComponent } from './Components/medical-clinic/medical-clin
     PharmacyComponent,
     HoursComponent,
     WalkInClinicComponent,
-    MedicalClinicComponent
+    MedicalClinicComponent,
+    TopArticleComponent
   ],
   imports: [
     BrowserModule,
