@@ -1,6 +1,6 @@
 @import "src/styles.scss";
 
-.wrapper{
+.wrapper {
   width: 1440px;
   height: 532px;
   background: #F5F5F5;
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-h1{
+h1 {
   @extend .fontHelvBold;
   font-size: 45px;
   line-height: 110%;
@@ -21,12 +21,12 @@ h1{
   margin: 81px 0px 30px 0px;
 }
 
-article{
+article {
   width: 570px;
   margin-left: 185px;
 }
 
-article > span{
+article > span {
   @extend .fontHelvRoman;
   font-size: 16px;
   display: inline-block;
@@ -35,7 +35,7 @@ article > span{
   color: #777A81;
 }
 
-article div > p{
+article div > p {
   @extend .fontHelvBold;
   font-size: 18px;
   line-height: 150%;
@@ -43,13 +43,14 @@ article div > p{
   color: #606164;
   margin: 0;
 }
-article > div{
+
+article > div {
   margin-top: 16px;
 }
 
 @media only screen and (max-width: 375px) {
 
-  .wrapper{
+  .wrapper {
     width: 375px;
     height: 964px;
     display: flex;
@@ -57,13 +58,13 @@ article > div{
     justify-content: flex-end;
   }
 
-  h1{
+  h1 {
     font-size: 40px;
     margin-top: -25px;
     margin-bottom: 40px;
   }
 
-  article{
+  article {
     position: relative;
     z-index: 10;
     width: 342px;
@@ -71,16 +72,16 @@ article > div{
     margin-left: 17px;
   }
 
-  article > span{
+  article > span {
     width: 342px;
     margin-bottom: 10px;
   }
 
-  article > div{
+  article > div {
     margin-top: 30px;
   }
 
-  article div > p{
+  article div > p {
     @extend .fontHelvBold;
     font-size: 18px;
     line-height: 150%;
@@ -88,7 +89,7 @@ article > div{
     color: #606164;
 
   }
-  img{
+  img {
     margin-top: 26px;
     position: relative;
     width: 506.36px;

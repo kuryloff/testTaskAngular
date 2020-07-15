@@ -9,6 +9,10 @@
   z-index: 2;
 }
 
+.carousel {
+  display: none;
+}
+
 .menuContainer {
   display: flex;
   justify-content: space-between;
@@ -68,14 +72,14 @@ h1 {
   text-transform: capitalize;
 }
 
-p{
-@extend .fontHelvRoman;
+p {
+  @extend .fontHelvRoman;
   font-size: 16px;
   line-height: 150%;
   color: #858A93;
 }
 
-.button{
+.button {
   @extend .fontHelvMedium;
   display: block;
   width: 185px;
@@ -92,12 +96,122 @@ p{
   padding-top: 12px;
 }
 
-.button:hover{
+.button:hover {
   text-decoration: none;
 }
 
-img{
+img {
   position: absolute;
   top: 50px;
   left: 910px;
 }
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    position: absolute;
+    bottom: 964px;
+    width: 375px;
+    height: 941px;
+    z-index: 2;
+    margin: 0;
+  }
+
+  .menuContainer {
+    display: none;
+  }
+
+  article {
+    margin-left: 22px;
+  }
+
+  h1 {
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    font-size: 24px;
+    width: 267px;
+    margin-top: 45px;
+  }
+
+  p {
+    width: 264px;
+    line-height: 140%;
+  }
+
+  .button {
+    width: 163px;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 30px 0 50px 0;
+  }
+
+
+  .carousel {
+    display: block;
+    height: 820px;
+    margin-top: 74px;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    margin-left: 13px;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background: #C4C4C4;
+  }
+
+  .carousel-indicators {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+
+  .carousel-indicators .active {
+    background: #1F4D7F;
+  }
+  .carousel-inner {
+    height: 790px;
+  }
+  .carousel-item {
+    width: 303px;
+    height: 757px;
+    box-shadow: 0 13px 60px rgba(81, 87, 104, 0.1);
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-top: 15px;
+  }
+  .carousel-item.active {
+    margin-top: 15px;
+    height: 757px;
+    box-shadow: 0px 13px 60px rgba(81, 87, 104, 0.15);
+  }
+
+
+  .carousel-inner .active.left {
+    left: -33%;
+  }
+  .carousel-inner .next {
+    left: 1%;
+  }
+  .carousel-inner .prev {
+    left: -33%;
+  }
+
+  .carousel-inner:after {
+    margin-top: 15px;
+    height: 757px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 90%;
+    display: block;
+    background-color: #fff;
+    z-index: 2;
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+
