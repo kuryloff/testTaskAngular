@@ -6,3 +6,12 @@
   top: 79px;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    position: absolute;
+    width: 375px;
+    height: 6288px;
+    top: 74px;
+  }
+}

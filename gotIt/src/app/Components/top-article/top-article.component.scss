@@ -1,7 +1,7 @@
 @import "src/styles.scss";
 
 .wrapper {
-  width: 100%;
+  width: 1440px;
   height: 841px;
   position: absolute;
   top: 17px;
@@ -81,4 +81,93 @@ a:hover {
 #mask0 {
   width: 795px;
   height: 679px;
+}
+
+@media only screen and (max-width: 375px)  {
+
+  .wrapper {
+    width: 375px;
+    height: 790px;
+    top: 17px;
+    left: 0;
+  }
+
+  article {
+    width: 428px;
+    height: 477px;
+    margin-top: 145px;
+    margin-left: 192px;
+  }
+
+  h1 {
+    @extend .fontHelvBold;
+    font-size: 55px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #404247;
+    margin: 0;
+  }
+
+  span {
+    @extend .fontHelvRoman;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858A93;
+    display: block;
+    margin-top: 52px;
+  }
+
+  a {
+    display: block;
+    width: 185px;
+    height: 50px;
+    background: linear-gradient(106.68deg, #84B1D7 2.5%, #4F7AA2 100%);
+    box-shadow: 6px 6px 25px rgba(16, 45, 57, 0.05);
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-top: 12px;
+    margin-top: 40px;
+    text-transform: capitalize;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .colorSvg {
+    position: absolute;
+    left: 533px;
+    top: 10px;
+    width: 907px;
+    height: 841px;
+    fill: none;
+  }
+
+  .colorPath {
+    opacity: 0.1;
+    fill: #A7A7A7;
+  }
+
+  .photoWrap {
+    position: absolute;
+    right: -8px;
+    top: 76px;
+    width: 768px;
+    height: 679px;
+    fill: none;
+  }
+
+  #mask0 {
+    width: 795px;
+    height: 679px;
+  }
+
+
+
+
 }

@@ -191,7 +191,6 @@ p {
   line-height: 140%;
   letter-spacing: 0.03em;
   color: #E6E4EA;
-
 }
 
 .days > p {
@@ -202,3 +201,138 @@ p {
   text-align: right;
 }
 
+
+@media only screen and (max-width: 375px) {
+  footer {
+    width: 375px;
+    height: 1040px;
+    left: 0;
+    top: 6362px;
+  }
+
+  .footerInfo {
+    width: 375px;
+    height: 1040px;
+  }
+
+  .copyrightInfo {
+    display: none;
+  }
+
+  .mainLink {
+    font-size: 20px;
+  }
+
+  .topRow {
+    height: 360px;
+    width: 187px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .links {
+    width: 187px;
+    height: 219px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoImg {
+    width: 100px;
+    height: 123px;
+    margin-bottom: 66px;
+  }
+
+  .bottomRow {
+    position: absolute;
+    width: 284px;
+    height: 567px;
+    bottom: 68px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    display: block;
+  }
+
+  .services > a {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 183px;
+  }
+
+  .linkWrapper {
+    position: relative;
+    top: -110px;
+    width: 284px;
+    height: 567px;
+    flex-direction: column;
+  }
+
+  .socialMedia {
+    position: relative;
+    top: 55px;
+    width: 206px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 37px;
+
+  }
+  .socialMedia a {
+    margin-bottom: 28px;
+  }
+
+  .services {
+    width: 150px;
+    height: auto;
+  }
+
+  .contactsContainer {
+    height: 172px;
+  }
+
+  .contactsContainer .locationSign {
+    margin-right: 22px;
+  }
+
+  .address {
+    display: block;
+    max-width: 210px;
+    margin-left: 37px;
+  }
+
+  .contactsContainer .mainLink {
+    font-size: 18px;
+  }
+
+  .buttonsBlock {
+    width: 195px;
+    height: 39px;
+    display: flex;
+    margin: 0;
+  }
+
+  .servicesContainer {
+    display: none;
+  }
+
+  .address {
+    width: 210px;
+  }
+
+  .hoursContainer {
+    margin-top: 34px;
+    width: 171px;
+    height: 151px;
+  }
+  .hoursContainer .mainLink {
+    font-size: 18px;
+    margin-bottom: 21px;
+  }
+  .hoursBlock {
+    margin: 0;
+  }
+}
