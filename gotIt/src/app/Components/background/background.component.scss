@@ -1,9 +1,9 @@
-.backgroundWrapper{
+.backgroundWrapper {
   width: 1440px;
   height: 4847px;
-
 }
-.el7{
+
+.el7 {
   position: absolute;
   width: 37px;
   height: 37px;
@@ -14,7 +14,7 @@
   border-radius: 50%;
 }
 
-.el11{
+.el11 {
   position: absolute;
   width: 13px;
   height: 13px;
@@ -24,7 +24,7 @@
   border-radius: 50%;
 }
 
-.el13{
+.el13 {
   position: absolute;
   width: 4px;
   height: 4px;
@@ -36,7 +36,7 @@
   border-radius: 50%;
 }
 
-.el14{
+.el14 {
   border-radius: 50%;
   position: absolute;
   width: 23px;
@@ -46,7 +46,7 @@
   background: #DCF5FB;
 }
 
-.el9{
+.el9 {
   border-radius: 50%;
   position: absolute;
   width: 9px;
@@ -56,7 +56,7 @@
   background: #BCD5E8;
 }
 
-.el8{
+.el8 {
   border-radius: 50%;
   position: absolute;
   width: 37px;
@@ -67,7 +67,7 @@
   box-sizing: border-box;
 }
 
-.el10{
+.el10 {
   border-radius: 50%;
   position: absolute;
   width: 28px;
@@ -77,7 +77,7 @@
   background: #008AB6;
 }
 
-.el12{
+.el12 {
   border-radius: 50%;
   position: absolute;
   width: 223px;
@@ -98,7 +98,7 @@
   background: #AECDE5;
 }
 
-.el15{
+.el15 {
   border-radius: 50%;
   position: absolute;
   width: 223px;
@@ -109,7 +109,7 @@
   box-sizing: border-box;
 }
 
-.el24{
+.el24 {
   border-radius: 50%;
   position: absolute;
   width: 23px;
@@ -120,7 +120,7 @@
   z-index: 2;
 }
 
-.el17{
+.el17 {
   border-radius: 50%;
   position: absolute;
   width: 9px;
@@ -182,4 +182,43 @@
   top: 3619px;
   border: 57px solid #FAFAFA;
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 375px) {
+  .backgroundWrapper {
+    width: 375px;
+    height: 7402px;
+  }
+
+  .el14 {
+    left: 323px;
+    top: 123px;
+  }
+
+  .el9 {
+    left: 346px;
+    top: 306px;
+  }
+
+  .el18 {
+    width: 37px;
+    height: 37px;
+    left: 198px;
+    top: 3083.72px;
+    border: 7px solid #49749D;
+    box-sizing: border-box;
+    transform: rotate(-34.06deg);
+    background: none;
+  }
+
+  .el19 {
+    width: 9px;
+    height: 9px;
+    left: 287.42px;
+    top: 3142.77px;
+    background: #00AFD7;
+    transform: rotate(-34.06deg);
+    border: none;
+    box-sizing: border-box;
+  }
 }

@@ -1,6 +1,13 @@
-.wrapper{
+.wrapper {
   width: 1140px;
   height: 4847px;
   background: #FFFFFF;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+    height: 7402px;
+  }
 }

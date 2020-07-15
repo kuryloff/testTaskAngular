@@ -1,14 +1,23 @@
 @import "src/styles.scss";
 
-.wrapper{
+.wrapper {
   position: absolute;
   width: 1440px;
   height: 79px;
-display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 img {
+  position: absolute;
   margin-left: 221px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  img {
+    position: absolute;
+    width: 47px;
+    height: 58px;
+    margin-left: 164px;
+    margin-top: 16px;
+  }
 }
