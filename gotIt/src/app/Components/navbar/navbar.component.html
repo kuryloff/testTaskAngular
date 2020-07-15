@@ -1,7 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+<nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+  <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,22 +43,15 @@
   </div>
 </nav>
 
-<div class="dropdown">
-
-  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1-1"
-          data-toggle="dropdown">Bootstrap
-    search
+<div class="dropdown searchBlock dropleft">
+  <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   </button>
-
-  <div class="dropdown-menu dropdown-primary" id="your-custom-id">
-    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://mdbootstrap.com/">MDB</a>
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://mdbootstrap.com/docs/react/">MDB react</a>
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://mdbootstrap.com/docs/angular/">MDB angular</a>
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://mdbootstrap.com/docs/vue/">MDB vue</a>
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://brandflow.net/">BrandFlow</a>
-    <a class="dropdown-item mdb-dropdownLink-1" href="https://mdbootstrap.com/education/bootstrap/">MDB
-      Rocks</a>
+  <div class="dropdown-menu dropleft" aria-labelledby="dropdownMenuButton">
+      <form class="dropdown-item">
+      <input class="form-control mr-sm-2 dropdown-item" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 dropdown-item" type="submit">Search</button>
+    </form>
   </div>
+
 </div>
 

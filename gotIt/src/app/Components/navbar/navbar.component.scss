@@ -1,6 +1,6 @@
 @import "src/styles.scss";
 
-nav{
+nav {
   position: absolute;
   margin-left: 517px;
   background-color: #FFFFFF;
@@ -10,40 +10,66 @@ nav{
   z-index: 1000;
 }
 
-li >a,
-div >a {
-@extend .fontHelvBold;
+li > a,
+div > a {
+  @extend .fontHelvBold;
   font-size: 16px;
   line-height: 140%;
   text-align: center;
   color: #6D6F75;
 }
 
-.navbar-nav{
+.navbar-nav {
   display: flex;
   justify-content: space-between;
   width: 731px;
 }
 
-.dropdown{
+.dropdown {
   display: none;
 }
 
 @media only screen and (max-width: 375px) {
-  //nav{
-  //  position: absolute;
-  //  margin-left: 16px;
-  //  background-color: #FFFFFF;
-  //  height: 79px;
-  //  width: 731px;
-  //  z-index: 10;
-  //}
+  nav {
+    position: absolute;
+    margin-left: 16px;
+    background-color: #FFFFFF;
+    height: 79px;
+    width: 120px;
+    z-index: 10;
+  }
+
+  .navbar-nav {
+    width: 120px;
+    background: #FFFFFF;
+  }
 
 
-
-
-
-  .dropdown{
+  .dropdown {
     display: block;
+  }
+  .navbar-toggler,
+  .navbar-toggler-icon {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+  }
+
+  .searchBlock {
+    position: absolute;
+    top: 33px;
+    width: 24px;
+    height: 24px;
+    left: 335px;
+    z-index: 2000;
+  }
+
+  .btn-secondary {
+    position: absolute;
+
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background-image: url("../../../assets/images/search.png");
   }
 }
