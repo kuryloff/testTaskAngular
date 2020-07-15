@@ -55,6 +55,14 @@ a:hover {
   text-decoration: none;
 }
 
+span {
+  font-size: 16px;
+  line-height: 150%;
+  color: #858A93;
+  display: block;
+  margin-top: 52px;
+}
+
 .colorSvg {
   position: absolute;
   left: 533px;
@@ -83,91 +91,76 @@ a:hover {
   height: 679px;
 }
 
-@media only screen and (max-width: 375px)  {
+rect {
+  width: 1032.39px;
+  height: 689.693px;
+}
+
+@media only screen and (max-width: 375px) {
 
   .wrapper {
     width: 375px;
-    height: 790px;
-    top: 17px;
+    height: 931px;
+    top: 0;
     left: 0;
   }
 
   article {
-    width: 428px;
-    height: 477px;
-    margin-top: 145px;
-    margin-left: 192px;
+    width: 343px;
+    height: 450px;
+    margin-top: 385px;
+    margin-left: 16px;
+    overflow: hidden;
   }
 
   h1 {
-    @extend .fontHelvBold;
-    font-size: 55px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #404247;
-    margin: 0;
+    font-size: 45px;
+    line-height: 120%;
+    text-align: center;
   }
 
   span {
-    @extend .fontHelvRoman;
-    font-size: 16px;
-    line-height: 150%;
-    color: #858A93;
-    display: block;
-    margin-top: 52px;
+    text-align: center;
+    margin-top: 20px;
   }
 
   a {
+    height: 60px;
+    padding-top: 17px;
+    margin: 60px 0 0 79px;
+  }
+
+  .colorSvg375 {
     display: block;
-    width: 185px;
-    height: 50px;
-    background: linear-gradient(106.68deg, #84B1D7 2.5%, #4F7AA2 100%);
-    box-shadow: 6px 6px 25px rgba(16, 45, 57, 0.05);
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
-    padding-top: 12px;
-    margin-top: 40px;
-    text-transform: capitalize;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
-  .colorSvg {
     position: absolute;
-    left: 533px;
-    top: 10px;
-    width: 907px;
-    height: 841px;
+    top: 40px;
+    width: 375px;
+    height: 357px;
     fill: none;
   }
 
-  .colorPath {
-    opacity: 0.1;
+  .colorPath375 {
+    display: block;
+    opacity: 0.11;
     fill: #A7A7A7;
   }
 
   .photoWrap {
     position: absolute;
-    right: -8px;
-    top: 76px;
-    width: 768px;
-    height: 679px;
+    right: 0;
+    top: 40px;
+    width: 357px;
+    height: 321px;
     fill: none;
   }
 
-  #mask0 {
-    width: 795px;
-    height: 679px;
+  rect {
+    width: 1032.39px;
+    height: 689.693px
   }
 
-
-
-
+  .mask {
+    fill: rgba(37, 38, 40, 0.3);
+    mix-blend-mode: multiply;
+  }
 }

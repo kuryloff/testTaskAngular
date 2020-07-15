@@ -25,14 +25,11 @@ div > a {
   width: 731px;
 }
 
-.dropdown {
-  display: none;
-}
 
 @media only screen and (max-width: 375px) {
   nav {
     position: absolute;
-    margin-left: 16px;
+    margin: 0 0 0 16px;
     background-color: #FFFFFF;
     height: 79px;
     width: 120px;
@@ -43,7 +40,6 @@ div > a {
     width: 120px;
     background: #FFFFFF;
   }
-
 
   .dropdown {
     display: block;
@@ -60,16 +56,16 @@ div > a {
     top: 33px;
     width: 24px;
     height: 24px;
-    left: 335px;
+    left: 330px;
     z-index: 2000;
   }
 
-  .btn-secondary {
+  .btnTop {
     position: absolute;
-
     width: 24px;
     height: 24px;
     padding: 0;
     background-image: url("../../../assets/images/search.png");
   }
+
 }

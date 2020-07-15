@@ -16,7 +16,7 @@ img {
   .wrapper {
     position: absolute;
     width: 375px;
-    height: 74px;
+    height: 79px;
   }
 
   img {
@@ -25,5 +25,10 @@ img {
     height: 58px;
     margin-left: 164px;
     margin-top: 16px;
+  }
+
+  #nav{
+    padding: 0;
+    background: none;
   }
 }
