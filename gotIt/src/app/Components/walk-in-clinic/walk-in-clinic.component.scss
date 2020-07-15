@@ -8,16 +8,22 @@
   bottom: 1826px;
 }
 
-svg {
+.svg1440 {
   position: absolute;
   width: 859px;
   height: 735px;
   right: 76.66px;
+  fill: none;
 }
 
-path {
+.path1440 {
   opacity: 0.33;
   fill: #F6F6F6;
+}
+
+.svg375,
+.path375 {
+  display: none;
 }
 
 .infoBlock {
@@ -124,4 +130,95 @@ img {
 
 .marginTop {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .wrapper {
+    width: 375px;
+    height: 1428px;
+    left: 0;
+    bottom: 2536px;
+  }
+
+  .svg375 {
+    display: block;
+    position: relative;
+    width: 375px;
+    height: 375px;
+    fill: none;
+    //right: 76.66px;
+  }
+
+  .path375 {
+    display: block;
+    opacity: 0.5;
+    fill: #F6F6F6;
+  }
+
+  .svg1440,
+  .path1440 {
+    display: none;
+  }
+  .infoBlock {
+    position: absolute;
+    width: 375px;
+    height: 1428px;
+    display: block;
+    margin: 0;
+  }
+
+  article {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 375px;
+    height: 1428px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 323px;
+    margin: 0 0 630px 17px;
+  }
+
+  article > span {
+    width: 338px;
+    display: block;
+    margin: 0 0 0 16px;
+  }
+
+  .buttonsContainer {
+    position: absolute;
+    top: 270px;
+    width: 337px;
+    height: 417px;
+    margin-left: 21px;
+    justify-content: space-between;
+  }
+
+  .firstColumn,
+  .secondColumn {
+    width: 164px;
+    height: 417px;
+  }
+
+  .firstColumn {
+    margin: 0;
+  }
+
+  .buttonLink {
+    width: 164.11px;
+    height: 132.62px;
+    font-size: 14px;
+  }
+
+  img {
+    margin: 15px 0;
+  }
+
+  .marginTop {
+    margin: 0;
+  }
 }
