@@ -28,16 +28,71 @@ article{
 
 article > span{
   @extend .fontHelvRoman;
+  font-size: 16px;
   display: inline-block;
   width: 570px;
   margin-bottom: 10px;
+  color: #777A81;
 }
 
-article > p{
+article div > p{
   @extend .fontHelvBold;
   font-size: 18px;
   line-height: 150%;
   width: 550px;
   color: #606164;
-  margin: 16px 0 0 0;
+  margin: 0;
+}
+article > div{
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .wrapper{
+    width: 375px;
+    height: 964px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  h1{
+    font-size: 40px;
+    margin-top: -25px;
+    margin-bottom: 40px;
+  }
+
+  article{
+    position: relative;
+    z-index: 10;
+    width: 342px;
+    height: 550px;
+    margin-left: 17px;
+  }
+
+  article > span{
+    width: 342px;
+    margin-bottom: 10px;
+  }
+
+  article > div{
+    margin-top: 30px;
+  }
+
+  article div > p{
+    @extend .fontHelvBold;
+    font-size: 18px;
+    line-height: 150%;
+    width: 343px;
+    color: #606164;
+
+  }
+  img{
+    margin-top: 26px;
+    position: relative;
+    width: 506.36px;
+    height: 338px;
+    right: 113px;
+  }
 }
