@@ -79,3 +79,63 @@ img {
   border-radius: 5px;
   z-index: 3;
 }
+
+@media only screen and (max-width: 375px) {
+
+  .wrapper {
+    width: 375px;
+    height: 1393px;
+    bottom: 3964px;
+    left: 0;
+    display: block;
+  }
+
+  .imageContainer {
+    position: absolute;
+    margin: 200px 0 0 18px;
+    width: 338px;
+    height: 354px;
+  }
+
+  article {
+    position: absolute;
+    top: 0;
+    width: 375px;
+    height: 1393px;
+  }
+
+  h1 {
+    font-size: 40px;
+    width: 284px;
+    margin: 0 0 450px 42px;
+    text-align: center;
+  }
+
+  span {
+    width: 343px;
+    margin: 0 0 15px 16px;
+  }
+
+  .topCorner {
+    width: 168px;
+    height: 136px;
+  }
+
+  .bottomCorner {
+    width: 188px;
+    height: 152px;
+  }
+
+  img {
+    margin-left: -112px;
+    width: 476.85px;
+    height: 331.31px;
+  }
+
+  .cropped {
+    margin: 18.28px 21.79px 14.65px 17.81px;
+    width: 298.4px;
+    height: 321.07px;
+    z-index: 3;
+  }
+}
